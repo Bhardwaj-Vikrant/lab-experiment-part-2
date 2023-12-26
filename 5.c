@@ -16,7 +16,7 @@ int nCr(int n, int r) {
         return 0; // Invalid input, n should be greater than or equal to r
     }
 
-    int result = factorial(n) / (factorial(r) * factorial(n - r));
+    int result = factorial(n) / (factorial(r) * factorial(n - r));//function call inside a function.
     return result;
 }
 
