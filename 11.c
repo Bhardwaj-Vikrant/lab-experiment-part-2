@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int num[5] = {0,1,2,3,4};
-    int *ptr = &num; 
+    int *ptr = num; 
     for(int i = 0 ; i <5 ; i++){
         printf("%d\n",*ptr);
         ptr++;//printing array data using increment operator
